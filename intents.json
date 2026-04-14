@@ -1,0 +1,274 @@
+{
+    "intents": [
+
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola","buenas","hey","hola chatbot","qué tal","buenos días","buenas tardes",
+                "buenas noches","hola amigo","hola asistente","saludos","qué onda",
+                "hola que haces","hola sistema","hey bot","hola hola","qué hay",
+                "hola de nuevo","buen día","hola crack", "qué onda asistente", "comenzar",
+                "iniciar chat", "hay alguien ahí", "asistente disponible", "hablar con el bot"
+            ],
+            "responses": [
+                "Hola  ¿en qué puedo ayudarte?",
+                "¡Bienvenido!  ¿Qué necesitas?",
+                "Hola, soy tu asistente de inventario",
+                "¡Hola! ¿Listo para gestionar tu inventario?",
+                "Saludos, ¿qué deseas hacer hoy?",
+                "Hola, dime en qué te ayudo",
+                "¡Hola! Estoy aquí para ayudarte",
+                "Bienvenido al sistema de inventario",
+                "Hola, ¿qué operación deseas realizar?",
+                "Hola, ¿cómo puedo ayudarte?",
+                "¡Buenas! ¿Qué necesitas?",
+                "Hola, listo para asistirte",
+                "Saludos, ¿en qué puedo servirte?",
+                "Hola, dime qué deseas consultar",
+                "¡Hola! Vamos a trabajar con tu inventario",
+                "Hola, ¿quieres consultar o modificar algo?",
+                "Bienvenido, ¿qué deseas hacer?",
+                "Hola, estoy activo para ayudarte",
+                "Hola, ¿qué deseas hoy?",
+                "Hola, listo para ayudarte"
+            ]
+        },
+
+        {
+            "tag": "consultar_inventario",
+            "patterns": [
+                "¿Qué productos hay en inventario?","muéstrame el inventario","qué hay en stock",
+                "lista de productos","ver inventario","qué productos tengo",
+                "mostrar productos disponibles","qué artículos hay","ver stock actual",
+                "lista de inventario","qué hay disponible","productos en existencia",
+                "muéstrame los productos","consulta de inventario","ver artículos",
+                "qué tengo guardado","inventario completo","qué productos están registrados",
+                "ver todo el inventario","mostrar existencias", "¿cómo va el almacén?",
+                "reporte de inventario", "qué tenemos hoy", "ver almacén"
+            ],
+            "responses": [
+                "Aquí tienes el inventario actual",
+                "Mostrando todos los productos disponibles",
+                "Estos son los artículos en stock",
+                "Aquí está la lista completa de productos",
+                "Inventario cargado correctamente",
+                "Estos son los productos registrados",
+                "Mostrando inventario actualizado",
+                "Lista de productos disponible",
+                "Aquí puedes ver todo el inventario",
+                "Inventario consultado con éxito",
+                "Estos son los artículos disponibles",
+                "Aquí tienes el stock actual",
+                "Mostrando existencias del sistema",
+                "Consulta realizada correctamente",
+                "Aquí está el inventario completo",
+                "Productos disponibles mostrados",
+                "Inventario listo para revisión",
+                "Estos son los productos actuales",
+                "Datos de inventario cargados",
+                "Lista de inventario generada"
+            ]
+        },
+
+        {
+            "tag": "agregar_producto",
+            "patterns": [
+                "quiero agregar producto","añadir artículo","registrar producto","agrega productos",
+                "ingresar producto","quiero registrar un producto","añadir nuevo producto",
+                "guardar producto","crear producto","agregar un artículo nuevo",
+                "insertar producto","dar de alta producto","sumar producto",
+                "registrar artículo","meter producto al inventario","agregar mercancía",
+                "añadir al inventario","nuevo producto","cargar producto","registrar nueva mercancía",
+                "añadir al inventario", "nuevo producto", "cargar producto", "registrar nueva mercancía",
+                "meter algo nuevo", "dar de alta un item", "ingresar nueva entrada"
+            ],
+            "responses": [
+                "¿Qué producto deseas agregar?",
+                "Dime el nombre y cantidad del producto",
+                "Vamos a registrar un nuevo artículo",
+                "Indica los datos del producto",
+                "Estoy listo para agregar un producto",
+                "Proporciona la información del producto",
+                "¿Cuál es el producto a registrar?",
+                "Ingresa nombre y cantidad",
+                "Vamos a añadir un producto",
+                "Escribe los datos del nuevo producto",
+                "¿Qué deseas ingresar al inventario?",
+                "Indica el producto y cantidad",
+                "Listo para registrar producto",
+                "Dime qué producto agregar",
+                "Vamos a guardar un producto",
+                "Introduce los datos del artículo",
+                "¿Qué deseas añadir?",
+                "Proporciona información del producto",
+                "Listo para añadir mercancía",
+                "¿Qué producto deseas cargar?"
+            ]
+        },
+
+        {
+            "tag": "eliminar_producto",
+            "patterns": [
+                "eliminar producto","borrar artículo","quitar producto","remover artículo",
+                "elimina producto","quiero eliminar un producto","borrar producto del inventario",
+                "quitar artículo del sistema","eliminar un artículo","remover producto del inventario",
+                "borrar registro de producto","eliminar mercancía","quitar del inventario",
+                "eliminar producto existente","borrar item","eliminar producto guardado",
+                "remover producto registrado","quitar mercancía","eliminar elemento","borrar producto", 
+                "sacar del sistema", "limpiar registro de item"
+            ],
+            "responses": [
+                "¿Qué producto deseas eliminar?",
+                "Indica el nombre del producto a borrar",
+                "Vamos a eliminar un artículo",
+                "Dime qué producto quitar",
+                "Estoy listo para eliminar producto",
+                "¿Cuál es el producto a remover?",
+                "Indica el producto a eliminar",
+                "Vamos a borrar ese producto",
+                "Proporciona el nombre del artículo",
+                "Listo para eliminar del inventario",
+                "¿Qué artículo deseas quitar?",
+                "Eliminación de producto en proceso",
+                "Dime el producto a eliminar",
+                "Procediendo a eliminar producto",
+                "Indica qué producto borrar",
+                "¿Cuál producto quieres eliminar?",
+                "Listo para remover producto",
+                "Dime el nombre del artículo",
+                "Eliminar producto solicitado",
+                "Proceso de eliminación listo"
+            ]
+        },
+
+        {
+            "tag": "actualizar_stock",
+            "patterns": [
+                "actualizar stock","modificar cantidad","cambiar stock","editar cantidad",
+                "ajustar inventario","actualizar cantidad de producto","modificar inventario",
+                "cambiar cantidad disponible","editar stock","ajustar cantidad",
+                "modificar existencias","actualizar inventario","cambiar número de productos",
+                "editar inventario","ajustar stock del producto","modificar cantidad disponible",
+                "actualizar unidades","cambiar unidades","editar cantidad en inventario",
+                "ajustar productos", "corregir stock", "cambio de unidades", "reajustar números"
+            ],
+            "responses": [
+                "¿Qué producto deseas actualizar?",
+                "Dime el nuevo stock",
+                "Vamos a modificar la cantidad",
+                "Indica el producto y la nueva cantidad",
+                "Listo para actualizar inventario",
+                "Proporciona el nuevo valor",
+                "Actualización de stock en proceso",
+                "Dime el producto a modificar",
+                "Indica la cantidad nueva",
+                "Vamos a editar el inventario",
+                "¿Qué artículo deseas cambiar?",
+                "Actualizando existencias",
+                "Proporciona los nuevos datos",
+                "Modificación en curso",
+                "Dime la cantidad correcta",
+                "¿Qué deseas actualizar?",
+                "Listo para modificar stock",
+                "Indica el cambio a realizar",
+                "Actualización lista",
+                "Proceso de ajuste iniciado"
+            ]
+        },
+
+        {
+            "tag": "alertas_stock",
+            "patterns": [
+                "productos bajos","inventario bajo","alertas de stock","productos por agotarse",
+                "qué falta","productos con poco stock","artículos por acabarse",
+                "qué productos están bajos","ver productos críticos","inventario crítico",
+                "qué productos faltan","alertas de inventario","stock bajo",
+                "productos casi agotados","artículos con pocas unidades","mostrar alertas",
+                "ver productos con bajo inventario","qué está por terminarse",
+                "productos en riesgo","revisar stock bajo", "faltantes", "urgente reponer"
+            ],
+            "responses": [
+                "Estos productos tienen bajo stock",
+                "Mostrando artículos críticos", 
+                "Aquí están las alertas de inventario",
+                "Productos con pocas unidades detectados",
+                "Estos artículos están por agotarse",
+                "Inventario bajo encontrado",
+                "Productos en riesgo listados",
+                "Revisión de stock bajo completada",
+                "Artículos críticos mostrados",
+                "Aquí tienes los productos con alerta",
+                "Productos casi agotados detectados",
+                "Lista de inventario bajo",
+                "Estos productos necesitan reposición",
+                "Stock crítico encontrado",
+                "Alertas generadas correctamente",
+                "Productos faltantes identificados",
+                "Inventario en estado crítico",
+                "Lista de productos con bajo stock",
+                "Revisión completa de alertas",
+                "Sistema detectó productos críticos"
+            ]
+        },
+
+        {
+            "tag": "info_producto",
+            "patterns": [
+                "información del producto","detalles del producto","características del producto",
+                "datos del producto","info del artículo","ver información del producto",
+                "qué es este producto","detalles del artículo","mostrar información",
+                "ver datos del producto","información de un producto","qué contiene este producto",
+                "descripción del producto","datos del artículo","ver características",
+                "info del producto","qué datos tiene el producto","mostrar detalles",
+                "información completa del producto","ver ficha del producto", "especificaciones"
+            ],
+            "responses": [
+                "Aquí tienes la información del producto",
+                "Mostrando detalles del artículo",
+                "Estos son los datos del producto",
+                "Información cargada correctamente",
+                "Aquí está la ficha del producto",
+                "Mostrando características del producto",
+                "Datos del producto disponibles",
+                "Consulta de producto realizada",
+                "Detalles del artículo mostrados",
+                "Información completa del producto",
+                "Datos del producto listos",
+                "Características mostradas",
+                "Información del artículo cargada",
+                "Detalles disponibles",
+                "Ficha técnica mostrada",
+                "Consulta completada",
+                "Datos obtenidos correctamente",
+                "Información lista",
+                "Detalles cargados",
+                "Producto encontrado"
+            ]
+        },
+
+        {
+           "tag": "despedida",
+            "patterns": [
+                "adiós", "hasta luego", "bye", "nos vemos", "terminar", "cerrar chat", "gracias por la ayuda",
+                "ya es todo", "mañana seguimos", "muchas gracias", "chao"
+            ],
+            "responses": [
+                "¡Hasta pronto! Espero haber sido de ayuda.", "Nos vemos, ¡que tengas un excelente día!", 
+                "Chat finalizado. ¡Suerte con el inventario!"
+            ]
+        },
+
+        {
+            "tag": "no_entendido",
+            "patterns": [
+                "asdfgh", "wdwddwd", "bgfntyjtjt", "kotrwcnq", "qwer", "12345", "??????"
+            ],
+            "responses": [
+                "Lo siento, no entendí eso. ¿Podrías intentar con frases como 'ver inventario' o 'agregar producto'?", 
+                "No reconozco ese comando. Prueba preguntando por el stock actual."
+            ]
+        }
+
+    ]
+}
+
