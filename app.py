@@ -1,3 +1,9 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import random
