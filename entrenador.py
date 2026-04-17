@@ -98,6 +98,6 @@ print("\n--- Iniciando Entrenamiento ---")
 model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
 
 # Guardar modelo
-model.save('chatbot_model.h5')
+model.save('chatbot_model.keras')
 
 print("\n✅ Modelo generado con éxito.")
